@@ -1,0 +1,168 @@
+*, body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    width: 100%;
+    height: auto;
+    padding: 18px;
+    background-color: #CFB784;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.leftContainer {
+    width: 35%;
+    height: auto;
+    background-color: #A09F57;
+    border-radius: 5px;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 250px;
+}
+
+.imageContainer img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px ;
+    height: 100%;
+}
+
+.informationContainer {
+    width: 100%;
+    height: auto;
+    padding: 0px 15px;
+}
+
+li.personal {
+    list-style-type: none;
+    margin: 30px 0px;
+}
+
+i {
+    margin-right: 10px;
+    font-size: 23px;
+    color: #C56824;
+}
+
+.information2 {
+    width: 100%;
+    height: auto;
+}
+
+.mainContainer2 {
+    margin: 30px 0px;
+}
+
+.outsideP {
+    width: 100%;
+    height: 25px;
+    background-color: #EADEB8;
+    border-radius: 10px;
+}
+
+.insideP {
+    height: 100%;
+    background-color: #C56824;
+    border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.skills {  
+    display: block;
+    margin:  15px 0px;
+}
+
+/* right container */
+
+.rightContainer {
+    width: 63%;
+    height: auto;
+}
+
+.rightContent1 {
+    background-color: #A09F57;
+    padding: 25px 15px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+}
+
+.experiences {
+    margin-top: 45px;
+
+}
+
+/*font size */
+.fontsize18 {
+    font-size: 18px;
+    color: white;
+}
+.fontsize12 {
+    font-size: 16px;
+    color: #C56824;
+}
+
+button {
+    background-color: lightgreen;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.date {
+    margin-top: 14px;
+}
+
+.date p {
+    margin: 14px 0px;
+    color: white;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #C56824;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.wh {
+    color: white;
+}
+
+.socialIcons {
+    margin: 8px 0px;
+}
+
+/* Responsive */
+
+@media (max-width: 700px)  {
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftContainer {
+        width: 100%;
+    }
+    .rightContainer {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .fontsize18 {
+        font-size: 16px;
+    }
+
+}

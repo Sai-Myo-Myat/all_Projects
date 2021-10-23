@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.responsive {
+    width: 24%;
+    height: 300px;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+.responsive:hover .ImageGallery {
+    opacity: 0.8;
+}
+
+.ImageGallery {
+    height:80%;
+}
+
+.images {
+    width: 100%;
+    height: 100%;
+}
+
+
+.desc {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+@media (max-width: 830px) {
+    .responsive {
+        width: 48%;
+    }
+}
+
+@media (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
