@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: chocolate;
+}
+
+.inputAndIcon {
+    width: 45%;
+    margin: 26px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputTag {
+    outline: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.allThingsContainer {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.toDoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 3px 0px;
+    padding: 5px 10px;
+}
+
+.things {
+    width: 85%;
+    height: auto;
+    font-size: 21px;
+}
+
+.iconFontSize {
+    font-size: 33px;
+    cursor: pointer;
+}
+
+.iconFontSize:hover {
+    font-size: 30px;
+    color: rgb(54, 2, 2);
+}
+
+.done {
+    background-color: white;
+}
+
+/*.fa-plus-circle:hover {
+    font-size: 33px;
+}*/
