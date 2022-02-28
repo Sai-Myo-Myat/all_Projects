@@ -1,0 +1,76 @@
+body {
+    font-family: 'Dongle', sans-serif;
+    background-color: #333;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.song {
+    font-size: 36px;
+    color: rgb(161, 157, 157);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.song:hover {
+    color: rgb(209, 204, 204);
+}
+.active {
+    color: rgb(209, 204, 204);
+}
+
+.time {
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.controls {
+    font-size: 33px;
+    color: rgb(230, 65, 65);
+    margin: 0px 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.controls:active {
+    font-size: 30px;
+    color: rgb(236, 44, 44);
+}
+
+.pauseButton {
+    display: none;
+}
+
+.outsideProgress {
+    width: 450px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: rgb(209, 204, 204);
+    margin: 0px 0px 15px;
+}
+
+.insideProgress {
+    width: 1px;
+    height: 100%;
+    background-color: rgb(236, 44, 44);
+    border-radius: 5px;
+}

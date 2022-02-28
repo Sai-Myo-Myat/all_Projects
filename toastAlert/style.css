@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    color: green;
+    font-size: 17px;
+    cursor: pointer;
+    user-select: none;
+    margin: 5px;
+}
+
+.alert {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    position: relative;
+    transition: bottom .3s ease-in-out;
+}
+
+.toast {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
